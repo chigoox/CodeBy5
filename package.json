@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/chigoox/CodeBy5#readme",
   "dependencies": {
-    "stripe": "^15.0.0"
+    "stripe": "^15.0.0",
+    "firebase": "^10.11.0"
   }
 }
