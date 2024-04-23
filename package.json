@@ -1,0 +1,28 @@
+{
+  "name": "codeby5",
+  "version": "1.0.0",
+  "description": "utilities used by ED5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chigoox/CodeBy5.git"
+  },
+  "keywords": [
+    "utilites",
+    "ed5",
+    "chigoox",
+    "react"
+  ],
+  "author": "ED5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chigoox/CodeBy5/issues"
+  },
+  "homepage": "https://github.com/chigoox/CodeBy5#readme",
+  "dependencies": {
+    "stripe": "^15.0.0"
+  }
+}
