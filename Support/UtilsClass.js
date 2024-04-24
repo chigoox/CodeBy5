@@ -1,3 +1,5 @@
+import { message } from "antd"
+
 class UtilClass {
 
     isDev = () => {
@@ -86,6 +88,10 @@ class UtilClass {
         if (num >= 1000) return (String(num / 1000).substring(0, 5) + 'K')
     }
 
+    notify = {
+        error: (text) => { message.error(text) },
+        success: (text) => { message.success(text) }
+    }
 
 }
 
