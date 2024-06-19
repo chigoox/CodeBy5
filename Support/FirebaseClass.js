@@ -27,9 +27,9 @@ class FireClass {
 
     constructor(firebaseConfig) {
         this.app = initializeApp(firebaseConfig);
-        this.DATABASE = getFirestore(app);
-        this.AUTH = getAuth(app)
-        this.STORAGE = getStorage(app)
+        this.DATABASE = getFirestore(this.app);
+        this.AUTH = getAuth(this.app)
+        this.STORAGE = getStorage(this.app)
     }
 
 
